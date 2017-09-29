@@ -1,2 +1,2 @@
-# garuda-core
+# Garuda
 A multi-protocol messenger

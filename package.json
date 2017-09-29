@@ -1,0 +1,21 @@
+{
+  "name": "garuda-core",
+  "version": "0.1.0",
+  "description": "A multi-protocol messenger",
+  "license": "Apache-2.0",
+  "author": "ChrissW-R1",
+  "contributors": [
+    "ChrissW-R1 <contact@ChrissW-R1.me> (http://ChrissW-R1.me)"
+  ],
+  "dependencies": {
+    "xmpp.js": "^0.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.5.3",
+    "@types/node": "^8.0.31",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-ts": "^6.0.0-beta.16",
+    "grunt-contrib-uglify": "^3.1.0"
+  }
+}

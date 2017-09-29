@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES3",
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "sourceRoot": "src/main/ts",
+    "outDir": "dist"
+  },
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}
