@@ -3,7 +3,7 @@ module.exports = function (grunt) {
 	grunt.initConfig({
 						 pkg   : grunt.file.readJSON("package.json"),
 						 clean : {
-							 dist: ["dist/**"]
+							 target: ["target/**"]
 						 },
 						 ts    : {
 							 options: {
@@ -12,7 +12,7 @@ module.exports = function (grunt) {
 							 main   : {
 								 tsconfig: true,
 								 src     : "src/main/ts/**/*.ts",
-								 dest    : "dist"
+								 dest    : "target/generated-sources/ts-compiled"
 							 }
 						 },
 						 uglify: {
@@ -23,9 +23,9 @@ module.exports = function (grunt) {
 								 files: [
 									 {
 										 expand: true,
-										 cwd   : "dist",
+										 cwd   : "target/generated-sources/ts-compiled",
 										 src   : "**/*.js",
-										 dest  : "dist",
+										 dest  : "target/generated-sources/uglified",
 										 ext   : ".min.js"
 									 }
 								 ]
