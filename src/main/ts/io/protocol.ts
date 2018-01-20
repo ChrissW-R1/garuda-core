@@ -1,4 +1,4 @@
 export abstract class Protocol {
-    name: string;
-    uidSyntax: string;
+	name: string;
+	uidSyntax: string;
 }
