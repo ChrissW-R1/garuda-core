@@ -10,7 +10,7 @@
 	</parent>
 
 	<artifactId>garuda-core</artifactId>
-	<version>0.2.1-SNAPSHOT</version>
+	<version>0.1.0-SNAPSHOT</version>
 
 	<name>Garuda (Core)</name>
 	<description>
