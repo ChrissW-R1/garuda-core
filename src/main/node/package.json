@@ -1,0 +1,46 @@
+{
+	"name"           : "@chrissw-r1/${project.artifactId}",
+	"version"        : "${project.version}",
+	"description"    : "${project.description}",
+	"keywords"       : [
+		"Garuda",
+		"IM",
+		"messenger",
+		"chat",
+		"multi-protocol"
+	],
+	"homepage"       : "${project.url}",
+	"license"        : "Apache-2.0",
+	"author"         : "ChrissW-R1",
+	"contributors"   : [
+		{
+			"name" : "ChrissW-R1",
+			"email": "contact@ChrissW-R1.me",
+			"url"  : "http://ChrissW-R1.me"
+		}
+	],
+	"repository"     : {
+		"type": "git",
+		"url" : "git+${project.scm.url}.git"
+	},
+	"bugs"           : {
+		"url": "${project.issueManagement.url}"
+	},
+	"devDependencies": {
+		"typescript"                       : "~${npm-typescript.version}",
+		"tslint"                           : "~${tslint.version}",
+		"rxjs"                             : "~${rxjs.version}",
+		"zone.js"                          : "~${zonejs.version}",
+		"@angular/core"                    : "~${angular.version}",
+		"@angular/common"                  : "~${angular.version}",
+		"@angular/compiler"                : "~${angular.version}",
+		"@angular/platform-browser"        : "~${angular.version}",
+		"@angular/platform-browser-dynamic": "~${angular.version}",
+		"codelyzer"                        : "~${codelyzer.version}",
+		"grunt"                            : "~${grunt.version}",
+		"grunt-cli"                        : "~${grunt-cli.version}",
+		"grunt-tslint"                     : "~${grunt-tslint.version}",
+		"grunt-ts"                         : "~${grunt-ts.version}",
+		"grunt-contrib-uglify"             : "~${uglify.version}"
+	}
+}

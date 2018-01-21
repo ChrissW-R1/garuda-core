@@ -1,7 +1,7 @@
 {
 	"compilerOptions": {
-		"sourceRoot"            : "src/main/ts",
-		"outDir"                : "target/generated-sources/ts-compiled",
+		"sourceRoot"            : "C:\\Users\\ChrissW-R1\\ws_intellij\\garuda-core\\src\\main\\ts",
+		"outDir"                : "C:\\Users\\ChrissW-R1\\ws_intellij\\garuda-core\\target/generated-sources/ts-compiled",
 		"target"                : "ES3",
 		"moduleResolution"      : "node",
 		"module"                : "commonjs",
@@ -17,7 +17,8 @@
 		"node_modules/@types"
 	],
 	"exclude"        : [
-		"target",
-		"node_modules"
+		"C:\\Users\\ChrissW-R1\\ws_intellij\\garuda-core\\target",
+		"node_modules",
+		"build-exe"
 	]
 }

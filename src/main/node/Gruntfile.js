@@ -10,18 +10,18 @@ module.exports = function (grunt) {
 							 },
 							 files  : {
 								 src: [
-									 "C:\\Users\\ChrissW-R1\\ws_intellij\\garuda-core\\src\\main\\ts/**/*.ts"
+									 "${project.build.sourceDirectory}/**/*.ts"
 								 ]
 							 }
 						 },
 						 ts    : {
 							 options: {
-								 rootDir: "C:\\Users\\ChrissW-R1\\ws_intellij\\garuda-core\\src\\main\\ts"
+								 rootDir: "${project.build.sourceDirectory}"
 							 },
 							 main   : {
 								 tsconfig: true,
-								 src     : "C:\\Users\\ChrissW-R1\\ws_intellij\\garuda-core\\src\\main\\ts/**/*.ts",
-								 dest    : "C:\\Users\\ChrissW-R1\\ws_intellij\\garuda-core\\target/generated-sources/ts-compiled"
+								 src     : "${project.build.sourceDirectory}/**/*.ts",
+								 dest    : "${project.build.directory}/generated-sources/ts-compiled"
 							 }
 						 },
 						 uglify: {
@@ -32,9 +32,9 @@ module.exports = function (grunt) {
 								 files: [
 									 {
 										 expand: true,
-										 cwd   : "C:\\Users\\ChrissW-R1\\ws_intellij\\garuda-core\\target/generated-sources/ts-compiled",
+										 cwd   : "${project.build.directory}/generated-sources/ts-compiled",
 										 src   : "**/*.js",
-										 dest  : "C:\\Users\\ChrissW-R1\\ws_intellij\\garuda-core\\target/generated-sources/uglified",
+										 dest  : "${project.build.directory}/generated-sources/uglified",
 										 ext   : ".min.js"
 									 }
 								 ]

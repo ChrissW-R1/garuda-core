@@ -1,7 +1,7 @@
 {
 	"name": "@chrissw-r1/garuda-core",
-	"version": "0.1.0-SNAPSHOT",
-	"description": "A multi-protocol messenger",
+	"version": "0.2.1-SNAPSHOT",
+	"description": "Core library of the Garuda project",
 	"keywords": [
 		"Garuda",
 		"IM",
@@ -9,7 +9,7 @@
 		"chat",
 		"multi-protocol"
 	],
-	"homepage": "http://ChrissW-R1.me",
+	"homepage": "https://github.com/ChrissW-R1/garuda-core/build-parent/js-parent/garuda-core",
 	"license": "Apache-2.0",
 	"author": "ChrissW-R1",
 	"contributors": [
@@ -21,7 +21,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/ChrissW-R1/garuda-core.git"
+		"url": "git+https://github.com/ChrissW-R1/garuda-core/build-parent/js-parent/garuda-core.git"
 	},
 	"bugs": {
 		"url": "https://github.com/ChrissW-R1/garuda-core/issues"
@@ -29,9 +29,17 @@
 	"devDependencies": {
 		"typescript": "~2.6.2",
 		"tslint": "~5.9.1",
-		"codelyzer": "^4.1.0",
+		"rxjs": "~5.5.6",
+		"zone.js": "~0.8.20",
+		"@angular/core": "~5.2.1",
+		"@angular/common": "~5.2.1",
+		"@angular/compiler": "~5.2.1",
+		"@angular/platform-browser": "~5.2.1",
+		"@angular/platform-browser-dynamic": "~5.2.1",
+		"codelyzer": "~4.1.0",
 		"grunt": "~1.0.1",
-		"grunt-contrib-clean": "~1.1.0",
+		"grunt-cli": "~1.2.0",
+		"grunt-tslint": "~5.0.1",
 		"grunt-ts": "~5.5.1",
 		"grunt-contrib-uglify": "~3.3.0"
 	}
